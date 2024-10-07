@@ -28,7 +28,9 @@ public class App{
                     int pages = scanner.nextInt();
                     System.out.println("enter the year of publication of the book: ");
                     int yearPublished = scanner.nextInt();
-                    book = new Book(title, price, pages, yearPublished);
+                    System.out.println("enter the price of the book: ");
+                    int priceBook = scanner.nextInt();
+                    book = new Book(title, price, pages, yearPublished, priceBook);
                     System.out.println("the book has been added to the library");
                     break;
                 case 2:

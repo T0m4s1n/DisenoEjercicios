@@ -1,11 +1,13 @@
 public class Book extends Content{
     private int pages;
     private int yearPublished;
+    private float priceBook;
 
-    public Book(String title, float price, int pages, int yearPublished) {
+    public Book(String title, float price, int pages, int yearPublished, float priceBook){
         super(title, price);
         this.pages = pages;
         this.yearPublished = yearPublished;
+        this.priceBook = priceBook;
     }
 
     @Override
