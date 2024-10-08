@@ -10,6 +10,7 @@ public class Cylinder extends Circle{
         return height;
     }
 
+    @Override
     public double area(){
         return 2 * Math.PI * radius * height + 2 + super.area();
     }
